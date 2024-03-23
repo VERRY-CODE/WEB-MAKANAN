@@ -1,0 +1,101 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+header .logo a h1 span {
+    font-weight: bold ;
+    color: rgb(26, 56, 163);
+}
+
+
+
+header  {
+    justify-content: space-between;
+    background-color: blue;
+    padding: 10px;
+    display:  flex;
+}
+
+.logo {
+    padding: 20px;
+}
+
+
+.logo a {
+    
+    text-decoration: none;
+    color: rgb(255, 251, 251);
+}
+
+nav ul {
+    display: flex;
+    gap: 30px;
+    list-style-type: none;
+    padding: 30px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color:white;
+}
+
+
+main article img {
+    width: 100%;
+}
+
+
+main {
+    padding: 30px  10px ;
+    /* margin-top: 30px; */
+    align-items: center; 
+    /* height: 100vh; */
+    flex-wrap: wrap;
+    justify-content: space-around;
+    /* flex-wrap: wrap; */
+    display: flex;
+    gap: 10px;
+    
+}
+
+article:hover  {
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.5);
+    background-color: rgb(194, 194, 203);
+    transform: scale(1.1);
+    transition: all 0.6s;
+    cursor: pointer;
+}
+
+
+article {
+    margin-top: 30px ;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.5);
+    width: 300px;
+    background-color: rgb(231, 231, 237);
+    height: auto;
+    border-radius: 10px;
+    padding: 10px;
+    border: 1px solid black;
+}
+
+
+footer p {
+    color: white;
+    padding: 30px ;
+    background-color: blue;
+    text-align: center;
+}
+
+
+
+
+
